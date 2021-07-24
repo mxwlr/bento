@@ -11,22 +11,22 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: '',
   imageBackground: false,
   openInNewTab: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'おはよう',
+  greetingAfternoon: 'こんにちは',
+  greetingEvening: 'こんばんは',
+  greetingNight: 'おやすみ',
 
-  // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C',
-  weatherLatitude: '37.774929',
-  weatherLongitude: '-122.419418',
+//   Weather
+//   weatherKey: 'InsertYourAPIKeyHere123456',
+//   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+//   weatherUnit: 'F',
+//   weatherLatitude: '37.774929',
+//   weatherLongitude: '-122.419418',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
@@ -39,25 +39,25 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/',
+      link: 'https://github.com/mxwlr',
     },
     {
       id: '2',
       name: 'Mail',
-      icon: 'mail',
+      icon: 'at-sign',
       link: 'https://mail.protonmail.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Wallpapers',
+      icon: 'image',
+      link: 'https://wallhaven.cc/',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Arch Wiki',
+      icon: 'terminal',
+      link: 'https://wiki.archlinux.org/',
     },
     {
       id: '5',
@@ -67,9 +67,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -78,27 +78,27 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'rss',
+//   secondListIcon: 'coffee',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Feedly',
+        link: 'https://feedly.com/',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Twitter',
+        link: 'https://tweetdeck.twitter.com/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: '',
+        link: '',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: '',
+        link: '',
       },
     ],
     secondList: [
